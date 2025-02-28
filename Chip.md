@@ -6,19 +6,19 @@ The Chip component is a versatile UI element used for displaying small pieces of
 ## Variants & Styles
 The Chip component has the following variations:
 
-### 1. **Shape Variants**
+### **Shape Variants**
 - **Rounded:** Soft edges, suitable for modern, friendly UI.
 - **Squared:** Sharper edges, ideal for structured or data-heavy interfaces.
 
-### 2. **Color Themes**
+### **Color Themes**
 - **Light Colors:** 19 predefined light colors.
 - **Dark Colors:** 19 predefined strong/dark colors.
 
-### 3. **Border Styles**
+### **Border Styles**
 - **Bordered:** Has a defined border to enhance visibility.
 - **Minimal:** No background, border, or padding for a seamless look.
 
-### 4. **Sizes**
+### **Sizes**
 - **Small:** Compact and suitable for dense interfaces.
 - **Default:** Balanced size for general use.
 - **Large:** Larger for emphasis or touch-friendly interactions.
@@ -49,12 +49,12 @@ The Chip component supports the following properties:
 - **Pair with icons when needed:** Icons enhance clarity, such as an 'X' for removable Chips.
 
 ## Examples
-### 1. **Tagging System** (Squared, Minimal, Small)
+### **Tagging System** (Squared, Minimal, Small)
 For data dense use cases: 
 
 ![image](img/Tagging.png)
 
-### 2. **Filter Options** (Rounded, Small, Medium, Monochrome, Bordered)
+### **Filter Options** (Rounded, Small, Medium, Monochrome, Bordered)
 For filter interaction use cases:
 
 ![image](img/Filtering.png)
