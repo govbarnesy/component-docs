@@ -15,8 +15,8 @@ The Chip component has the following variations:
 - **Squared:** Sharper edges, ideal for structured or data-heavy interfaces.
 
 ### 2. **Color Themes**
-- **Light Colors:** 20 predefined light colors.
-- **Dark Colors:** 20 predefined strong/dark colors.
+- **Light Colors:** 19 predefined light colors.
+- **Dark Colors:** 19 predefined strong/dark colors.
 
 ### 3. **Border Styles**
 - **Bordered:** Has a defined border to enhance visibility.
@@ -52,19 +52,15 @@ The Chip component supports the following properties:
 - **Pair with icons when needed:** Icons enhance clarity, such as an 'X' for removable Chips.
 
 ## Examples
-### 1. **Tagging System** (Rounded, Light Color, Default Size)
+### 1. **Tagging System** (Squared, Minimal, Small)
+For data dense use cases: 
 
-<div>
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/uj0cIdPEMdiOk3HOP0xdrn/branch/yw8GSLvK8NEstsoFUL0IgX/CDS-2.0?m=auto&node-id=18432-53049&embed-host=share" allowfullscreen></iframe>
-</div>
+![image](img/Tagging.png)
 
-### 2. **Filter Options** (Squared, Dark Color, Minimal, Small)
+### 2. **Filter Options** (Rounded, Small, Medium, Monochrome, Bordered)
+For filter interaction use cases:
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/uj0cIdPEMdiOk3HOP0xdrn/branch/yw8GSLvK8NEstsoFUL0IgX/CDS-2.0?m=auto&node-id=18432-53049&embed-host=share" allowfullscreen></iframe>
-
-### 3. **User Selection** (Bordered, Large, Dark Mode)
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/uj0cIdPEMdiOk3HOP0xdrn/branch/yw8GSLvK8NEstsoFUL0IgX/CDS-2.0?m=auto&node-id=18432-53049&embed-host=share" allowfullscreen></iframe>
+![image](img/Filtering.png)
 
 ### Accessibility Considerations
 - **Ensure sufficient contrast between text and background.**
