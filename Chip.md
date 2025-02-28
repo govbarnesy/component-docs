@@ -26,11 +26,12 @@ The Chip component has the following variations:
 
 ## Properties
 The Chip component supports the following properties:
-
 - **Left Icon:** A customizable swappable instance that can represent different icons.
 - **Right Icon:** A customizable swappable instance; defaults to a close button.
 - **Avatar:** An optional avatar image that is off by default.
 - **Label:** The main textual content of the Chip.
+  
+![image](img/Properties.png)
 
 ## Usage Guidelines
 ### When to Use
