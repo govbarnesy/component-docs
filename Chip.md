@@ -54,7 +54,9 @@ The Chip component supports the following properties:
 ## Examples
 ### 1. **Tagging System** (Rounded, Light Color, Default Size)
 
+<div>
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/uj0cIdPEMdiOk3HOP0xdrn/branch/yw8GSLvK8NEstsoFUL0IgX/CDS-2.0?m=auto&node-id=18432-53049&embed-host=share" allowfullscreen></iframe>
+</div>
 
 ### 2. **Filter Options** (Squared, Dark Color, Minimal, Small)
 
