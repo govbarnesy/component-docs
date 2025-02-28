@@ -1,7 +1,3 @@
----
-title: "Chip Component Documentation"
----
-
 # Chip Component Documentation
 
 ## Overview
