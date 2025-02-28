@@ -22,6 +22,7 @@ The Chip component has the following variations:
 - **Small:** Compact and suitable for dense interfaces.
 - **Default:** Balanced size for general use.
 - **Large:** Larger for emphasis or touch-friendly interactions.
+- **Minimal:** Most compact size, can be used to indicate a status change.
 
 ## Properties
 The Chip component supports the following properties:
