@@ -1,22 +1,22 @@
 # Chip Component Documentation
 
 ## Overview
-The Chip component is a versatile UI element used for displaying small pieces of information, such as tags, categories, or interactive elements. It supports multiple visual styles and configurations to fit various design needs.
+The Chip component is a versatile UI element used to categorize, filter, or tag content. It supports multiple visual styles and configurations to fit various design needs.
 
 ## Variants & Styles
 The Chip component has the following variations:
 
 ### **Shape Variants**
-- **Rounded:** Soft edges, suitable for modern, friendly UI.
-- **Squared:** Sharper edges, ideal for structured or data-heavy interfaces.
+- **Rounded:** Used for fitler interactions
+- **Squared:** Used for tagging content
 
 ### **Color Themes**
 - **Light Colors:** 19 predefined light colors.
 - **Dark Colors:** 19 predefined strong/dark colors.
 
-### **Border Styles**
-- **Bordered:** Has a defined border to enhance visibility.
-- **Minimal:** No background, border, or padding for a seamless look.
+### **Outlined Styles**
+- **Outlined:** Used for filter hover states
+- **Minimal:** Used for status tagging
 
 ### **Sizes**
 - **Small:** Compact and suitable for dense interfaces.
@@ -26,12 +26,37 @@ The Chip component has the following variations:
 
 ## Properties
 The Chip component supports the following properties:
-- **Left Icon:** A customizable swappable instance that can represent different icons.
-- **Right Icon:** A customizable swappable instance; defaults to a close button.
+- **Icon:** A customizable swappable instance that can represent different icons.
 - **Avatar:** An optional avatar image that is off by default.
 - **Label:** The main textual content of the Chip.
-  
-![image](img/Properties.png)
+- **Delete Icon:** A customizable swappable instance; defaults to a close button.
+
+![image](img/chips-anatomy.png)
+
+In code this would look like:
+
+``` ts
+<Chip
+    icon={<BellIcon />} 
+    label="Notifications"
+    deleteIcon={<DeleteIcon />}
+    onDelete={handleDelete}
+    size="large"
+    variant="default"
+/>
+
+<Chip
+    avatar={<Avatar alt="Leslie Knope" src="../path/to/leslie-knope.jpg" />}
+    label="Leslie Knope"
+    deleteIcon={<DeleteIcon />}
+    onDelete={handleDelete}
+    size="large"
+    variant="default"
+/>
+```
+
+### Usage Example
+![image](img/chips-example-usage.png)
 
 ## Usage Guidelines
 ### When to Use
@@ -44,23 +69,26 @@ The Chip component supports the following properties:
 - Do not use Chips for long text; keep labels concise.
 
 ### Best Practices
-- **Ensure readability:** Choose contrasting colors based on light/dark mode.
+- **Ensure readability:** Use the color variant options in the componant.
 - **Use consistent spacing:** Maintain uniform padding between Chips.
 - **Avoid overuse:** Too many Chips on a screen can cause clutter.
-- **Pair with icons when needed:** Icons enhance clarity, such as an 'X' for removable Chips.
+- **Pair with icons when needed:** Icons enhance clarity.
 
 ## Examples
-### **Tagging System** (Squared, Minimal, Small)
-For data dense use cases: 
+### **Tagging System** (Squared)
+For tagging content
 
 ![image](img/Tagging.png)
 
-### **Filter Options** (Rounded, Small, Medium, Monochrome, Bordered)
-For filter interaction use cases:
+### **Filter Options** (Rounded)
+#### For filter interactions use rounded variants in these states:
+- **For Selected states use a Strong color** 
+- **For Hover states use the Outlined variant**
+- **Use default gray for usage in components**
 
 ![image](img/Filtering.png)
 
 ### Accessibility Considerations
-- **Ensure sufficient contrast between text and background.**
+- **All 38 color variants have been checked for accessibility.**
 - **Provide focus indicators for keyboard navigation.**
 - **Use aria-labels when necessary for screen readers.**
