@@ -47,9 +47,6 @@ In code this would look like:
 />
 ```
 
-### Usage Example
-
-
 ## Usage Guidelines
 ### When to Use
 - Use Chips to categorize, filter, or tag content.
@@ -69,13 +66,13 @@ In code this would look like:
 ## Examples
 ### **Tagging System**
 - **For tagging content use the default Chip**
-- **Choose an appropriate sized Chip for the context of the interaction**
+- **Choose an appropriate sized Chips allowing for appropriate padding**
 
 
 ![image](img/Tagging.png)
 
 ### **Filter Options**
-- **Use default gray for usage in components**
+- **Use default gray for filter use cases**
 - **Use the Icons and Avatars to connote Filter type**
 
 ![image](img/Filtering.png)
