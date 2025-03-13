@@ -6,23 +6,15 @@ The Chip component is a versatile UI element used to categorize, filter, or tag 
 ## Variants & Styles
 The Chip component has the following variations:
 
-### **Shape Variants**
-- **Rounded:** Used for fitler interactions
-- **Squared:** Used for tagging content
 
-### **Color Themes**
-- **Light Colors:** 19 predefined light colors.
-- **Dark Colors:** 19 predefined strong/dark colors.
-
-### **Outlined Styles**
-- **Outlined:** Used for filter hover states
-- **Minimal:** Used for status tagging
+### **Recommended Styles**
+- **Default:** For general use
+- **Outlined:** For selected/hover states
 
 ### **Sizes**
 - **Small:** Compact and suitable for dense interfaces.
 - **Default:** Balanced size for general use.
 - **Large:** Larger for emphasis or touch-friendly interactions.
-- **Minimal:** Most compact size, can be used to indicate a status change.
 
 ## Properties
 The Chip component supports the following properties:
@@ -56,7 +48,7 @@ In code this would look like:
 ```
 
 ### Usage Example
-![image](img/chips-example-usage.png)
+
 
 ## Usage Guidelines
 ### When to Use
@@ -75,20 +67,24 @@ In code this would look like:
 - **Pair with icons when needed:** Icons enhance clarity.
 
 ## Examples
-### **Tagging System** (Squared)
-For tagging content
+### **Tagging System**
+- **For tagging content use the default Chip**
+- **Choose an appropriate sized Chip for the context of the interaction**
+
 
 ![image](img/Tagging.png)
 
-### **Filter Options** (Rounded)
-#### For filter interactions use rounded variants in these states:
-- **For Selected states use a Strong color** 
-- **For Hover states use the Outlined variant**
+### **Filter Options**
 - **Use default gray for usage in components**
+- **Use the Icons and Avatars to connote Filter type**
 
 ![image](img/Filtering.png)
 
+- **Use corresponding colors and Outlined styles for selected states**
+
+![image](img/Filtering-Selected.png)
+
 ### Accessibility Considerations
-- **All 38 color variants have been checked for accessibility.**
+- **All color variants have been checked for accessibility.**
 - **Provide focus indicators for keyboard navigation.**
 - **Use aria-labels when necessary for screen readers.**
